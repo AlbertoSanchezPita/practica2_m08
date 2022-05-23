@@ -1,0 +1,85 @@
+.cuerpoContacto {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.infoPersonal {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 0px 10px 10px 10px;
+    background-color: rgb(206, 206, 206);
+}
+
+.datos {
+    display: flex;
+}
+
+.datos label {
+    width: 150px;
+}
+
+.comentario {
+    border: 1px solid black;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 30px;
+    background-color: rgb(206, 206, 206);
+}
+
+.addComment {
+    width: 99%;
+    height: 150px;
+}
+
+.addReceta {
+    border: 1px solid black;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(206, 206, 206);
+}
+
+.tipoPlato1 {
+    display: flex;
+}
+
+.tipoPlato2 {
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.tipoPlato2 input {
+    margin-left: 30px;
+}
+
+.enviar {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 80px;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botonEnviar {
+    margin-right: 20%;
+    flex-grow: 1;
+}

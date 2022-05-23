@@ -1,0 +1,97 @@
+.listadoRecetas {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 80px;
+}
+
+.listaRecetas {
+    border-bottom: 1px solid black;
+    background-color: rgb(207, 207, 207);
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.listadoRecetas h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.listadoRecetas h2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.titulo {
+    display: flex;
+}
+
+.cuerpo {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    max-width: 70%;
+    justify-content: space-between;
+}
+
+.cuerpo p {
+    margin-left: 2%;
+}
+
+.titulo img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.titulo h2 {
+    flex-grow: 1;
+}
+
+.miniatura {
+    width: 100px;
+    height: 60px;
+}
+
+.paginas {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 50px;
+}
+
+.paginas ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 30px;
+    padding: 5px 0px 5px 0px;
+}
+
+.paginas ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.paginas ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+
+.paginas ul li:hover {
+    background-color: #7ABA96;
+    border: 1px solid #7ABA96;
+    border-radius: 30px;
+}
+
+.active {
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 30px;
+}

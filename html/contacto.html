@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/styleContacto.css">
+	<title>Contacto</title>
+</head>
+
+<body>
+    <header>
+		<a href="../index.html"><img class="imagenes" src="../src/img/Logo-Delicias.png"></a>
+	</header>
+	<nav class="menu">
+		<ul>
+			<li><a class="linkNav" href="../index.html">INICIO</a></li>
+			<li><a class="linkNav" href="">SOBRE MÍ</a></li>
+			<li><a class="linkNav" href="../html/listaRecetas.html">RECETAS</a></li>
+			<li><a class="linkNav" href="../html/contacto.html">CONTACTO</a></li>
+			<li><a class="linkNav" href="">OTRAS COSAS</a></li>
+		</ul>
+	</nav>
+	<main class="cuerpoContacto">
+		<form method="get">
+			<h1>Formulario de registro</h1>
+			<section class="infoPersonal">
+				<h2>Información personal</h2>
+				<div class="datos">
+					<label for="iname">Nombre:</label>
+					<input id="iname" type="text" name="name" required>
+				</div>
+				<br>
+				<div class="datos">
+					<label for="isurname">Apellidos:</label>
+					<input id="isurname" type="text" name="surname" required>
+				</div>
+				<br>
+				<div class="datos">
+					<label for="idate">Fecha de nacimiento:</label>
+					<input id="idate" type="date" name="date" required>
+				</div>
+				<br>
+				<div class="datos">
+					<label for="iphone">Teléfono:</label>
+					<input id="iphone" type="tel" name="phone">
+				</div>
+				<br>
+				<div class="datos">
+					<label>Género:</label> 
+					<input id="imale" type="radio" name="gender">
+					<label for="imale">Masculino</label>
+					<input id="ifemale" type="radio" name="gender">
+					<label for="ifemale">Femenino</label>
+				</div>
+				<br>
+				<div class="datos">
+					<label for="iemail">Email:</label>
+					<input id="iemail" type="email" name="email" required>
+				</div>
+				<br>
+				<div class="datos">
+					<label for="ipass">Contraseña:</label>
+					<input id="ipass" type="password" name="pass" required>
+				</div>
+			</section>
+			<section class="comentario">
+				<h2>Comentario</h2>
+				<textarea class="addComment" form="comment" type="text" name="commnet">Escribe aquí tu comentario</textarea>
+			</section>
+			<section class="addReceta">
+				<h2>Añadir receta</h2>
+				<div class="tipoPlato1">
+					<label>Tipo de receta:</label>
+					<br><br>
+					<div class="tipoPlato2">
+						<input id="iprimerPlato" type="radio" name="plato">
+						<label for="iprimerPlato">Primer plato</label>
+						<br>
+						<input id="isegundoPlato" type="radio" name="plato">
+						<label for="isegundoPlato">Segundo plato</label>
+						<br>
+						<input id="ipostre" type="radio" name="plato">
+						<label for="ipostre">Postre</label>
+					</div>
+				</div>
+				<br>
+				<div>
+					<textarea class="addComment" form="addreceta" type="text" name="addreceta">Escribe aquí tu receta</textarea>
+					<br>
+					<h3>Añade imagenes</h3>
+					<input type="file" name="file">	
+				</div>
+			</section>
+			<br>
+			<section class="enviar">
+				<input class="botonEnviar" type="submit" value="Enviar">
+				<input type="reset" value="Reiniciar valores">
+			</section>
+		</form>
+	</main>
+    <footer>
+		<nav>
+			<ul>
+				<li><a class="linkFooter" target="_blank" href="https://www.facebook.com/">Facebook</a></li>
+				<li><a class="linkFooter" target="_blank" href="https://www.twitter.com/">Twitter</a></li>
+				<li><a class="linkFooter" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+				<li><a class="linkFooter" target="_blank" href="https://www.pinterest.com/">Pinterest</a></li>
+				<li><a class="linkFooter" target="_blank" href="https://www.gmail.com/">Email</a></li>
+				<li><a class="linkFooter" target="_blank" href="">RSS</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+
+</html>

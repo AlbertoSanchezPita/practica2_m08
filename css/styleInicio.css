@@ -1,0 +1,58 @@
+.principal {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.sobreMi {
+    max-width: 20%;
+    text-align: justify;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.sobreMi h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.sobreMiPubli {
+    background-color: #eeeeee;
+    padding: 0px 5px 0px 5px;
+}
+
+.sobreMiPubli h3 {
+    background-color: #7ABA96;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0px 3px 0px;
+    margin: 0px -5px 0px -5px;
+}
+
+.recetas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.recetas article {
+    max-width: 45%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.recetas h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.fecha {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #7ABA96;
+    border-bottom: 1px solid #7ABA96;
+    padding: 2px 0px 2px 0px;
+}
